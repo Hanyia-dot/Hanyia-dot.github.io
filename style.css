@@ -1,0 +1,323 @@
+/* Variables */
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: "Roboto Mono", monospace;
+  color: #101419;
+  font-weight: 400; }
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px; }
+
+section {
+  padding: 96px 0; }
+
+/* Navigation */
+.navigation {
+  background: #8198B1;
+  padding: 12px 0; }
+  .navigation li {
+    display: inline-block;
+    margin-right: 36px;
+    position: relative; }
+  .navigation a {
+    text-decoration: none;
+    color: #ffffff; }
+  .navigation a:hover {
+    color: #101419; }
+
+.navigation li:hover ul {
+  display: block;
+  text-align: center;
+  position: absolute;
+  background: #ffffff;
+  z-index: 1; }
+
+.navigation ul li ul {
+  display: none;
+  margin-bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 0; }
+  .navigation ul li ul a {
+    color: #101419;
+    display: block;
+    padding: 0 24px; }
+  .navigation ul li ul a:hover {
+    color: #556E8B; }
+
+.splash {
+  background: #8198B1;
+  color: #ffffff;
+  Min-height: 500px;
+  display: flex; }
+
+.splash-inner {
+  margin: auto;
+  max-width: 70%; }
+
+h1 {
+  margin: 0;
+  font-size: 72px;
+  word-spacing: -24px;
+  font-Weight: 700;
+  line-height: 1.2; }
+
+h2 {
+  margin: 24px 0;
+  font-size: 16px;
+  font-weight: 400; }
+
+.page-title span {
+  font-size: 45px;
+  font-Weight: 150; }
+
+.btn {
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px auto 0;
+  padding: 16px;
+  border-radius: 5px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  background-position: 100% 0;
+  background-size: 300%;
+  transition: all 1.5s; }
+
+.btn-one {
+  border-color: #ffffff;
+  color: #ffffff;
+  background-image: linear-gradient(45deg, #ffffff 50%, transparent 50%); }
+
+.btn:hover {
+  background-position: 0 100%;
+  color: #101419; }
+
+.casing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+
+.box {
+  flex: 0 0 33.333%;
+  position: relative; }
+
+.title {
+  font-size: 48px;
+  margin: 0 0 72px;
+  font-family: "Rubik", sans-serif; }
+
+.number {
+  position: absolute;
+  opacity: 0.25;
+  color: #8198B1;
+  font-size: 144px;
+  line-height: 1; }
+
+.title-second {
+  font-size: 24px;
+  margin: 0 0 12px;
+  font-family: "Rubik", sans-serif; }
+
+.box p:first-of-type {
+  font-weight: 900; }
+
+.btn-two {
+  border-color: #8198B1;
+  color: #8198B1;
+  background-image: linear-gradient(45deg, #8198B1 50%, transparent 50%); }
+
+.btn-three {
+  border-color: #556E8B;
+  color: #556E8B;
+  background-image: linear-gradient(45deg, #556E8B 50%, transparent 50%); }
+
+.btn-four {
+  border-color: #3F5064;
+  color: #3F5064;
+  background-image: linear-gradient(45deg, #3F5064 50%, transparent 50%); }
+
+.tile {
+  flex: 0 0 50%;
+  position: relative;
+  margin: 30px 0;
+  min-height: 300px; }
+
+[class^="work-"] {
+  position: relative; }
+
+.work-image {
+  position: absolute;
+  height: 100%;
+  width: 50%; }
+  .work-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .work-image::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(120deg, #556E8B, #8198B1);
+    opacity: 0.25;
+    transition: 1s; }
+  .work-image:hover::after {
+    top: 0px;
+    left: 0px; }
+
+.tile .work-description {
+  margin-left: 295px;
+  text-align: left; }
+
+.work-description p {
+  font-style: italic; }
+
+.work-description p:last-of-type {
+  font-weight: 800; }
+
+.btn-five {
+  border: none;
+  margin: 36px 0;
+  padding: 0;
+  text-align: left;
+  color: #556E8B; }
+
+/*contact-form*/
+.contacting {
+  display: flex;
+  flex-wrap: wrap; }
+
+.comunication {
+  background: #ADBCCD; }
+
+.contact-form {
+  flex: 2 0 0;
+  width: 400px;
+  max-width: 100%; }
+  .contact-form div {
+    font-size: 24px; }
+  .contact-form em {
+    color: #8198B1; }
+  .contact-form .item {
+    position: relative;
+    margin: 28px 0; }
+  .contact-form label {
+    opacity: 0.2;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+    transition: 1s all;
+    font-size: 20px;
+    line-height: 40px; }
+  .contact-form input, .contact-form textarea {
+    padding: 10px 35px;
+    width: 100%;
+    font-size: 20px;
+    background: #f1f2f6;
+    border: none;
+    box-sizing: border-box; }
+    .contact-form input input:focus,
+    .contact-form input textarea:focus, .contact-form textarea input:focus,
+    .contact-form textarea textarea:focus {
+      border: none; }
+  .contact-form input:focus + label,
+  .contact-form input:valid + label,
+  .contact-form textarea:focus + label,
+  .contact-form textarea:valid + label {
+    bottom: 40px;
+    font-size: 16px;
+    opacity: 1; }
+  .contact-form input[type="submit"] {
+    background-image: none;
+    background-color: #8198B1;
+    color: #ffffff;
+    transition: 0.5s; }
+    .contact-form input[type="submit"]::hover {
+      background-color: #3F5064;
+      transition: 0.5s; }
+  .contact-form textarea + label {
+    top: 0; }
+  .contact-form textarea:focus + label,
+  .contact-form textarea:valid + label {
+    top: -32px; }
+  .contact-form textarea:valid {
+    border: none; }
+
+.contact {
+  flex: 1 0 0;
+  margin-left: 20px; }
+  .contact a {
+    font-size: 15px;
+    color: #556E8B; }
+  .contact .details {
+    font-size: 20px;
+    font-weight: 900; }
+
+footer {
+  margin: 0; }
+
+.page-footer {
+  margin: 10px 0; }
+  .page-footer ul {
+    text-align: center;
+    margin: 0; }
+  .page-footer li {
+    font-size: 0;
+    display: inline-block;
+    margin: 3 20px; }
+  .page-footer i {
+    font-size: 25px;
+    color: #556E8B;
+    border-radius: 40%; }
+
+/* Media */
+@media (max-width: 767px) {
+  h1 {
+    font-size: 58px; }
+
+  .casing,
+  .about {
+    flex-direction: column; }
+
+  .work-image,
+  .work-descripton {
+    position: relative; }
+
+  .tile .work-description {
+    margin: 10px 0 0;
+    text-align: left; }
+
+  .box {
+    max-width: 100%;
+    height: 150px; }
+
+  .work-image,
+  .work-desctiption {
+    width: 100%;
+    height: 400px; }
+
+  .navigation li {
+    margin-right: 0; }
+    .navigation li ul {
+      padding: 0; }
+
+  .contact-form {
+    min-width: 320px; } }
+@media (min-width: 768px) and (max-width: 970px) {
+  .tile .work-description {
+    margin-left: 55%; } }

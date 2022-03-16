@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My first website</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&amp;family=Rubik:wght@700&amp;display=swap">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navigation">
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#">O nas</a>
+                    </li>
+                    <li>
+                        <a href="#">Co robimy</a>
+                        <ul>
+                            <li>
+                                <a href="#">Zespół</a>
+                            </li>
+                            <li>
+                                <a href="#">Wartości</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Projekty</a>
+                    </li>
+                    <li>
+                        <a href="#">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <header class="splash">
+            <div class="splash-inner">
+                <h1 class="page-title">Dowolna
+                    <span>treść</span>
+                </h1>
+                <h2 class="page-subtitle">Dowolna treść</h2>
+                <a class="btn btn-one" href="#">Zobacz naszą pracę</a>
+            </div>
+        </header>
+        <section class="container">
+            <h2 class="title">Tytuł</h2>
+            <div class="casing">
+                <div class="box">
+                    <h1 class="number">1</h1>
+                    <h2 class="title-second">coś</h2>
+                    <p>pierwszy</p>
+                    <p>drugi</p>
+                    <a class="btn btn-two" href="#">Zobacz więcej</a>
+                </div>
+                <div class="box">
+                    <h1 class="number">2</h1>
+                    <h2 class="title-second">coś</h2>
+                    <p>Pierwszy</p>
+                    <p>Drugi</p>
+                    <a class="btn btn-three" href="#">Zobacz więcej</a>
+                </div>
+                <div class="box">
+                    <h1 class="number">3</h1>
+                    <h2 class="title-second">coś</h2>
+                    <p>Pierwszy</p>
+                    <p>Drugi</p>
+                    <a class="btn btn-four" href="#">Zobacz więcej</a>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <h2 class="title">Nasza  praca</h2>
+                <div class="casing">
+                    <article class="tile casing">
+                        <div class="work-image">
+                            <img src="https://images.pexels.com/photos/1199957/pexels-photo-1199957.jpeg?auto=compress%26cs=tinysrgb%26h=750%26w=1260" alt="Praca przy projekcie budowlanym" title="projekt">
+                        </div>
+                        <div class="work-description">
+                            <h3 class="title-second">tytuł</h3>
+                            <p>jedzenie jedzenie jedzenie jedzenie jedzenie</p>
+                            <p>jedzenie</p>
+                            <a class="btn btn-five" href="#">Zobacz więcej</a>
+                        </div>
+                    </article>
+                    <article class="tile casing">
+                        <div class="work-image">
+                            <img src="https://images.pexels.com/photos/2253643/pexels-photo-2253643.jpeg?auto=compress%26cs=tinysrgb%26h=750%26w=1260" alt="Praca przy projekcie budowlanym" title="projekt">
+                        </div>
+                        <div class="work-description">
+                            <h3 class="title-second">tytuł</h3>
+                            <p>jedzenie jedzenie jedzenie jedzenie jedzenie</p>
+                            <p>jedzenie</p>
+                            <a class="btn btn-five" href="#">Zobacz więcej</a>
+                        </div>
+                    </article>
+                    <article class="tile casing">
+                        <div class="work-image">
+                            <img src="https://images.pexels.com/photos/1528013/pexels-photo-1528013.jpeg?auto=compress%26cs=tinysrgb%26h=750%26w=1260" alt="Praca przy projekcie budowlanym" title="projekt">
+                        </div>
+                        <div class="work-description">
+                            <h3 class="title-second">tytuł</h3>
+                            <p>jedzenie jedzenie jedzenie jedzenie jedzenie</p>
+                            <p>jedzenie</p>
+                            <a class="btn btn-five" href="#">Zobacz więcej</a>
+                        </div>
+                    </article>
+                    <article class="tile casing">
+                        <div class="work-image">
+                            <img src="https://images.pexels.com/photos/2377477/pexels-photo-2377477.jpeg?auto=compress%26cs=tinysrgb%26h=750%26w=1260" alt="Praca przy projekcie budowlanym" title="projekt">
+                        </div>
+                        <div class="work-description">
+                            <h3 class="title-second">tytuł</h3>
+                            <p>jedzenie jedzenie jedzenie jedzenie jedzenie</p>
+                            <p>jedzenie</p>
+                            <a class="btn btn-five" href="#">Zobacz więcej</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="comunication">
+            <div class="container contacting">
+                <form action="" class="contact-form" method="post">
+                    <div>Formularz kontaktowy</div>
+                    <div class="item">
+                        <input required="" type="text" name="firstName" id="firstName" title="Wpisz swoje imię">
+                        <label for="firstName">Imię<em>*</em></label>                
+                    </div>
+                    <div class="item">
+                        <input required="" type="text" name="secondName" id="secondName" title="Wpisz swoje nazwisko">
+                        <label for="secondName">Nazwisko<em>*</em></label>                
+                    </div>
+                    <div class="item">
+                        <input required="" type="email" name="email" id="email" title="Wpisz swój adres e-mail">
+                        <label for="email">Email<em>*</em></label>                
+                    </div>
+                    <div class="item">
+                        <textarea required="" rows="10" cols="20" name="message" id="message" title="Wpisz treść swojej wiadomości"></textarea>
+                        <label for="message">Wiadomość<em>*</em></label>                
+                    </div>
+                    <input type="submit" class="send-button">
+                </form>
+                <div class="contact">
+                    <h2 class="details">Nasz mail</h2>
+                    <a href="mailto:tak.obiektyw.nie@gmail.com">tak.obiektyw.nie</a>
+                    <h2 class="details">Adres</h2>
+                    <address>Sucha 1<br>50-086 Wrocław</address>
+                    <h2 class="details">Numer telefonu</h2>
+                    <p>695 264 103</p>
+                </div>
+            </div>
+        </section>
+        <footer class="page-footer">
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/piskorzdominika/"><i class="fab fa-instagram"></i>Instagram</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-twitter-square"></i>Twitter</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    <script> </script>
+    
+    </body>
+</html>
