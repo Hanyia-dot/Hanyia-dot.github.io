@@ -21,7 +21,7 @@ section {
 
 /* Navigation */
 .navigation {
-  background: #8198B1;
+  background: #ffb8b8;
   padding: 12px 0; }
   .navigation li {
     display: inline-block;
@@ -29,9 +29,9 @@ section {
     position: relative; }
   .navigation a {
     text-decoration: none;
-    color: #ffffff; }
+    color: #fff; }
   .navigation a:hover {
-    color: #101419; }
+    color: #4b4b4b; }
 
 .navigation li:hover ul {
   display: block;
@@ -47,21 +47,21 @@ section {
   transform: translateX(-50%);
   padding-top: 0; }
   .navigation ul li ul a {
-    color: #101419;
+    color: #2d3436;
     display: block;
     padding: 0 24px; }
   .navigation ul li ul a:hover {
-    color: #556E8B; }
+    color: #6c5ce7; }
 
 .splash {
-  background: #8198B1;
+  background: #ffcccc;
   color: #ffffff;
   Min-height: 500px;
   display: flex; }
 
 .splash-inner {
   margin: auto;
-  max-width: 70%; }
+  max-width: 85%; }
 
 h1 {
   margin: 0;
@@ -103,7 +103,7 @@ h2 {
 
 .btn:hover {
   background-position: 0 100%;
-  color: #101419; }
+  color: #574b90; }
 
 .casing {
   display: flex;
@@ -122,7 +122,7 @@ h2 {
 .number {
   position: absolute;
   opacity: 0.25;
-  color: #8198B1;
+  color: #6c5ce7;
   font-size: 144px;
   line-height: 1; }
 
@@ -135,19 +135,19 @@ h2 {
   font-weight: 900; }
 
 .btn-two {
-  border-color: #8198B1;
-  color: #8198B1;
-  background-image: linear-gradient(45deg, #8198B1 50%, transparent 50%); }
+  border-color: #74b9ff;
+  color: #74b9ff;
+  background-image: linear-gradient(45deg, #74b9ff 50%, transparent 50%); }
 
 .btn-three {
-  border-color: #556E8B;
-  color: #556E8B;
-  background-image: linear-gradient(45deg, #556E8B 50%, transparent 50%); }
+  border-color: #55efc4;
+  color: #55efc4;
+  background-image: linear-gradient(45deg, #55efc4 50%, transparent 50%); }
 
 .btn-four {
-  border-color: #3F5064;
-  color: #3F5064;
-  background-image: linear-gradient(45deg, #3F5064 50%, transparent 50%); }
+  border-color: #ffaf40;
+  color: #ffaf40;
+  background-image: linear-gradient(45deg, #ffaf40 50%, transparent 50%); }
 
 .tile {
   flex: 0 0 50%;
@@ -173,7 +173,7 @@ h2 {
     left: 15px;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(120deg, #556E8B, #8198B1);
+    background-image: linear-gradient(120deg, #74b9ff, #fd79a8);
     opacity: 0.25;
     transition: 1s; }
   .work-image:hover::after {
@@ -195,7 +195,7 @@ h2 {
   margin: 36px 0;
   padding: 0;
   text-align: left;
-  color: #556E8B; }
+  color: #6c5ce7; }
 
 /*contact-form*/
 .contacting {
@@ -203,7 +203,7 @@ h2 {
   flex-wrap: wrap; }
 
 .comunication {
-  background: #ADBCCD; }
+  background: #ffcccc; }
 
 .contact-form {
   flex: 2 0 0;
@@ -212,7 +212,7 @@ h2 {
   .contact-form div {
     font-size: 24px; }
   .contact-form em {
-    color: #8198B1; }
+    color: #d63031; }
   .contact-form .item {
     position: relative;
     margin: 28px 0; }
@@ -228,7 +228,7 @@ h2 {
     padding: 10px 35px;
     width: 100%;
     font-size: 20px;
-    background: #f1f2f6;
+    background: #ffffff;
     border: none;
     box-sizing: border-box; }
     .contact-form input input:focus,
@@ -244,11 +244,11 @@ h2 {
     opacity: 1; }
   .contact-form input[type="submit"] {
     background-image: none;
-    background-color: #8198B1;
+    background-color: #ff7675;
     color: #ffffff;
     transition: 0.5s; }
     .contact-form input[type="submit"]::hover {
-      background-color: #3F5064;
+      background-color: #ff7675;
       transition: 0.5s; }
   .contact-form textarea + label {
     top: 0; }
@@ -263,7 +263,7 @@ h2 {
   margin-left: 20px; }
   .contact a {
     font-size: 15px;
-    color: #556E8B; }
+    color: #6c5ce7; }
   .contact .details {
     font-size: 20px;
     font-weight: 900; }
@@ -282,7 +282,7 @@ footer {
     margin: 3 20px; }
   .page-footer i {
     font-size: 25px;
-    color: #556E8B;
+    color: #ff7675;
     border-radius: 40%; }
 
 /* Media */
@@ -317,7 +317,7 @@ footer {
       padding: 0; }
 
   .contact-form {
-    min-width: 320px; } }
+    min-width: 300px; } }
 @media (min-width: 768px) and (max-width: 970px) {
   .tile .work-description {
     margin-left: 55%; } }
